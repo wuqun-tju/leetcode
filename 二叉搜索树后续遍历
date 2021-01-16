@@ -1,0 +1,27 @@
+class Solution {
+public:
+    bool verifyPostorder(vector<int>& postorder) {
+       /*if(postorder.size()<=1)
+         return true;
+        vector<int> left;
+        vector<int> right;
+        int root=postorder[postorder.size()-1];
+        int i=0;
+        if(i<(postorder.size()-1)){
+           while(postorder[i]<root&&i<(postorder.size()-1)){
+               left.push_back(postorder[i]);
+               i++;
+           }
+           while(postorder[i]>root&&i<(postorder.size()-1)){
+               right.push_back(postorder[i]);
+               i++;
+           }
+          
+           
+        }
+        if(i!=(postorder.size()-1)){
+               return false;
+        }
+        return verifyPostorder(left)&&verifyPostorder(right);
+    }*/
+};
